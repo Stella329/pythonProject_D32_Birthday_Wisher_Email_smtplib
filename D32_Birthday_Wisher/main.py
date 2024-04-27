@@ -54,7 +54,7 @@ for index, row in birthday_df.iterrows(): # df.iterrows(index, row_content)
 # 4. Send the letter generated in step 3 to that person's email address.
 
 receiver_email = row['email']
-sender_email = 'stella33299@gmail.com'
+sender_email = 'lalal@gmail.com'
 sender_password = 'DFDSA DFWE'
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as connection:
