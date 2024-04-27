@@ -24,7 +24,7 @@ def prepare_email(name):
 
 birthday_df = pandas.read_csv('birthdays.csv') # df_columns: name,email,year,month,day
 
-new_row = ['Jane', 'stella33299@163.com', '1995', '4', '27']
+new_row = ['Jane', 'lalal@163.com', '1995', '4', '27']
 birthday_df.loc[len(birthday_df)] = new_row ## add the row to the last
 # birthday_df.to_csv('birthdays.csv', index=False) ## save to the CSV （一次就够了）
 print(birthday_df) #test
@@ -55,7 +55,7 @@ for index, row in birthday_df.iterrows(): # df.iterrows(index, row_content)
 
 receiver_email = row['email']
 sender_email = 'stella33299@gmail.com'
-sender_password = 'bpik kfpl mcjh eijy'
+sender_password = 'DFDSA DFWE'
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as connection:
     connection.starttls()
