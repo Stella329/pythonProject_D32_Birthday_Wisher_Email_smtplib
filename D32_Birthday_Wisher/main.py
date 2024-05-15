@@ -57,7 +57,7 @@ receiver_email = row['email']
 sender_email = 'lalal@gmail.com'
 sender_password = 'DFDSA DFWE'
 
-with smtplib.SMTP(host='smtp.gmail.com', port=587) as connection:
+with smtplib.SMTP(host='smtp.xxx.com', port=5xx7) as connection:
     connection.starttls()
     connection.login(user=sender_email, password=sender_password)
     connection.sendmail(from_addr=sender_email,
