@@ -20,7 +20,7 @@ sender_password = 'app token'
 
 
 # METHOD 2 -- with
-with smtplib.SMTP('smtp.gmail.com',587) as connection: ##create an object
+with smtplib.SMTP('smtp.xxx.com',5x7) as connection: ##create an object
 ## smtplib.SMPT(host, port): provider's SMTP server location -- SMTP Server info
     connection.starttls()
     ## -TLS(): Transport Layer Security --a way to secure(by encryping) connection from us to the email server
